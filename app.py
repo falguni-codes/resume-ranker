@@ -1,6 +1,3 @@
-import subprocess
-import sys
-subprocess.check_call([sys.executable, "-m", "pip", "install", "scikit-learn", "PyPDF2", "pandas", "numpy"])
 import streamlit as st
 import pandas as pd
 import numpy as np
